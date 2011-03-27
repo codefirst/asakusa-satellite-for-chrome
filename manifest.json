@@ -1,0 +1,14 @@
+{
+    "name": "AsakusaSatellite Extension",
+    "version": "0.1",
+    "icons": {
+	"128": "icon.png"
+    },
+    "options_page": "options.html",
+    "background_page": "background.html",
+    "permissions": [
+        "notifications",
+        "http://*/",
+        "https://*/"
+    ]
+}

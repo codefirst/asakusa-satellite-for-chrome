@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>AsakusaSatelite Extension Options</title>
+    <meta HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="main.css" type="text/css" media="all">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.desktopnotify.js"></script>
+    <script type="text/javascript" src="options.js"></script>
+  </head>
+  <body>
+    <div class='main'>
+      <div class='header'>
+	<img alt="AsakusaSatellite" src="logo.png" />
+      </div>
+      <div class='content'>
+	<div class='yield'>
+	  <form>
+	    <fieldset>
+	      <legend>AsakusaSatellite Root</legend>
+	      <input name="api-root" class="text" value="http://localhost:3000/"/>
+	    </fieldset>
+	    <fieldset>
+	      <legend>Websocket Root</legend>
+	      <input name="ws-root" class="text" value="ws://localhost:18081/"/>
+	    </fieldset>
+	    <fieldset>
+	      <legend>API Key</legend>
+	      <input name="api-key" class="text" value="<some api key>"/>
+	    </fieldset>
+	    <p>
+	      <input value="Save" class="large red button submit save" type="submit" />
+	      <input value="Reset" class="large red button submit reset" type="reset" />
+	    </p>
+	  </form>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>
