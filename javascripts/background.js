@@ -19,7 +19,7 @@ $(function(){
         //if(message.screen_name != "#{current_user.screen_name}") {
             $.fn.desktopNotify({
                 picture: message.profile_image_url,
-                title: message.name,
+                title: message.room.name,
                 text : (message.attachment != null ? message.attachment.filename : message.body)
             });
         //}
